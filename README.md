@@ -1,8 +1,12 @@
-# 🌿 Mental Health Awareness 🌿
+# Mental Health Awareness 🌿
 
 A simple, informative web page built to raise awareness and knowledge about mental health, how to recognise common issues, and manage stress.
 
-## 💡 About the Project 💡
+# Site Link:
+https://github.com/Learan-Canning/mental-health-awareness
+
+
+# About the Project 💡
 
 This project was created to:
 - Spread awareness of mental health issues
@@ -10,18 +14,18 @@ This project was created to:
 - Promote self-care and understanding through accessible design and content
 - Aid in managing stress.
 
-## 🛠️ Built With 🛠️
+# Wireframe
+ Balsamiq was used:
+ <img width="1207" height="621" alt="wireframes-screenshot" src="https://github.com/user-attachments/assets/3ecb4d0d-bbde-4f4d-a754-30dadf16170e" />
+
+
+# Built With 🛠️
 
 - HTML5  
 - CSS3  
 - Bootstrap
 - Assistance from ChatGpt 
-- [Any libraries or frameworks you included, like Bootstrap or React]*
+- Google Fonts
+- Fontawesome
 
-## 🚀 Getting Started 🚀
 
-To view the project locally:
-
-```bash
-git clone https://github.com/Learan-Canning/mental-health-awareness.git
-cd mental-health-awareness
