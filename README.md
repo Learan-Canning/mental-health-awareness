@@ -14,7 +14,8 @@ This project was created to:
 
 - HTML5  
 - CSS3  
-- Bootstrap  
+- Bootstrap
+- Assistance from ChatGpt 
 - [Any libraries or frameworks you included, like Bootstrap or React]*
 
 ## 🚀 Getting Started 🚀
