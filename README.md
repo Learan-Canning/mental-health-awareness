@@ -18,6 +18,12 @@ This project was created to:
  Balsamiq was used:
  <img width="1207" height="621" alt="wireframes-screenshot" src="https://github.com/user-attachments/assets/3ecb4d0d-bbde-4f4d-a754-30dadf16170e" />
 
+# Project Planner
+Planned with GitHub Planner:
+<img width="1917" height="895" alt="Project Planner" src="https://github.com/user-attachments/assets/8f06499a-a367-4c1c-a742-0a7c6d11c1c1" />
+
+
+
 
 # Built With 🛠️
 
