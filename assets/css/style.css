@@ -1,0 +1,50 @@
+
+#header-img {
+  width: 100%;
+  height: 400px; /* or however tall you want it */
+  overflow: hidden;
+  position: relative;
+}
+
+#header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* this crops the image nicely */
+  object-position: center; /* keeps person centered */
+  
+}
+
+#card { 
+  background-color: #0691e8;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  background-color: #0b7fc7;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-color: white
+}
+
+p {
+  margin-bottom: 1rem;
+  font-color: white;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
