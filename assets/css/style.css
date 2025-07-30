@@ -1,6 +1,6 @@
 #header-img {
   width: 100%;
-  height: 400px; /* or however tall you want it */
+  height: 500px; /* or however tall you want it */
   overflow: hidden;
   position: relative;
 }
@@ -22,8 +22,6 @@ html, body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   font-family: 'Montserrat', 'Inter', Arial, sans-serif;
   line-height: 1.6;
@@ -47,8 +45,11 @@ h1 {
 }
 
 p {
-  margin-bottom: 1rem;
-  color: #fff; /* Use 'color', not 'font-color' */
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    padding: 0 1.5rem; /* Add horizontal padding */
+    text-align: center; /* Center text */
 }
 
 .navbar {
@@ -85,11 +86,15 @@ footer ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
+  display: flex;              /* Always horizontal */
+  justify-content: center;    /* Center icons */
+  align-items: center;
+  flex-wrap: wrap;            /* Allows wrapping if needed on small screens */
 }
 
 footer ul li {
-  display: inline;
-  margin: 0 6rem; /* space between links */
+  display: inline-block;      /* Inline-block for spacing */
+  margin: 0 2rem;             /* Adjust spacing as needed */
 }
 
 footer ul li i {
@@ -101,22 +106,45 @@ footer ul li i {
 }
 
 .banner-header {
+  width: 100%;
+  height: 600px;           /* Stretch header to 600px height */
+  overflow: hidden;
+  position: relative;
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
   border-left: none;
   border-right: none;
-  border-radius: 0;           /* No rounded corners */
+  border-radius: 0;
   box-sizing: border-box;
   margin: 0;
-  width: 100%;                /* Full widescreen width */
 }
 
-@media (max-width: 600px) {
-  footer ul li {
-    margin: 0 1.5rem; /* less space between icons on mobile */
-  }
+/* Remove flex from body unless you need sticky footer */
+body {
+  /* display: flex;
+  flex-direction: column; */
+  min-height: 100vh;
+  font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #0974d7;
 }
 
+/* Banner header stays fixed height on desktop */
+.banner-header {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Responsive for mobile */
 @media (max-width: 991px) {
   .navbar-collapse {
     position: absolute;
@@ -145,4 +173,47 @@ footer ul li i {
     margin-bottom: 0.05rem;
     text-align: right;
   }
+  .banner-header {
+    height: auto !important;
+    min-height: 180px;
+    overflow: visible !important;
+  }
+}
+
+.mh-awareness-header {
+  /* Remove border for "What are the Signs" header */
+  border: none;
+  border-radius: 0;
+  padding: 0.5rem 2rem;
+  background: transparent;
+  display: inline-block;
+  margin: 0.5rem auto;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.signs-card {
+  border: none !important;
+  border-top: 1.5px solid #fff;
+  border-bottom: 1.5px solid #fff;
+  border-radius: 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  min-height: 160px;
+  transition: box-shadow 0.3s;
+  background: transparent;
+}
+
+.signs-card:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
 }
