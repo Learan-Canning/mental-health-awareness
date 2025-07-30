@@ -91,8 +91,9 @@ footer ul li {
 footer ul li i {
   font-size: 2rem; /* social media icon size */
   padding: 10px 0; /* space around icons */
+  color: white; /* icon color */
   display: flex;
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .banner-header {
