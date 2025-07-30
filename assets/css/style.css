@@ -27,7 +27,7 @@ body {
   min-height: 100vh;
   font-family: 'Montserrat', 'Inter', Arial, sans-serif;
   line-height: 1.6;
-  background-color: #0b7fc7;
+  background-color: #0974d7;
 }
 
 h1, .navbar-brand, .navbar-nav .nav-link {
@@ -67,7 +67,10 @@ footer {
   text-align: center;
   background-color: #70b2f0;
   color: #fff;
-  border: 3px solid #fff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-left: none;
+  border-right: none;
   box-sizing: border-box;
   width: 100%;
   margin-left: auto;
@@ -82,16 +85,29 @@ footer ul {
 
 footer ul li {
   display: inline;
-  margin: 0 1rem; /* space between links */
+  margin: 0 6rem; /* space between links */
+}
+
+footer ul li i {
+  font-size: 2rem; /* social media icon size */
+  padding: 10px 0; /* space around icons */
+  display: flex;
+    justify-content: space-evenly;
 }
 
 .banner-header {
-  border-top: 4px solid #fff;
-  border-bottom: 4px solid #fff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   border-left: none;
   border-right: none;
   border-radius: 0;           /* No rounded corners */
   box-sizing: border-box;
   margin: 0;
   width: 100%;                /* Full widescreen width */
+}
+
+@media (max-width: 600px) {
+  footer ul li {
+    margin: 0 1.5rem; /* less space between icons on mobile */
+  }
 }
