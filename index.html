@@ -44,7 +44,7 @@
       crossorigin="anonymous"
     />
     <!-- Custom CSS Link -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>M.H.A | We Care</title>
   </head>
@@ -195,7 +195,53 @@
     </div>
 
     <!--managing stress-->
-
+    <section>
+    <h3 class="mh-awareness-header">Managing Stress <i class="fa-solid fa-person-running"></i></h3>
+        <p class="text-center">
+          It's important to recognize when stress is becoming overwhelming. Here are some tips to help manage stress effectively:
+        </p>
+        <ul class="centered-list">
+          <li>Practice mindfulness and meditation to stay grounded.</li>
+          <li>Engage in regular physical activity to boost your mood.</li>
+          <li>Talk to someone you trust about your feelings.</li>
+          <li>Establish a routine to create a sense of normalcy.</li>
+          <li>Seek professional help if needed.</li>
+        </ul>
+    </section>
+    <HR>
+    <!-- Support Links Section -->
+    <section class="section-spacing">
+      <h3 class="mh-awareness-header">Support Links</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <a href="https://www.mentalhealth.gov/" target="_blank" rel="noopener" class="btn btn-primary w-100">MentalHealth.gov</a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="https://www.nami.org/" target="_blank" rel="noopener" class="btn btn-primary w-100">NAMI</a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="https://www.who.int/health-topics/mental-health" target="_blank" rel="noopener" class="btn btn-primary w-100">World Health Organization</a>
+        </div>
+      </div>
+    <!-- Contact Form Section -->
+<section class="section-spacing">
+  <h3 class="mh-awareness-header">We Are Here, We Care - Contact Us</h3>
+  <form class="contact-form bg-transparent text-white p-4 rounded" action="#" method="post">
+    <div class="mb-3">
+      <label for="name" class="form-label">Your Name</label>
+      <input type="text" class="form-control" id="name" name="name" required />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Your Email</label>
+      <input type="email" class="form-control" id="email" name="email" required />
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-light fw-bold">Send Message</button>
+  </form>
+</section>
 
     <!--Bootstrap JS Script-->
     <script
@@ -237,3 +283,13 @@
     </footer>
   </body>
 </html>
+
+<style>
+body {
+  min-height: 100vh;
+  font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+  line-height: 1.6;
+  background: url('assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+</style>

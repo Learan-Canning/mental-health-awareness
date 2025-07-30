@@ -25,7 +25,8 @@ body {
   min-height: 100vh;
   font-family: 'Montserrat', 'Inter', Arial, sans-serif;
   line-height: 1.6;
-  background-color: #0974d7;
+  background: url('assets/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 h1, .navbar-brand, .navbar-nav .nav-link {
@@ -37,7 +38,7 @@ h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #fff;
-  border: 3px solid #fff;      /* White border */
+  border: 3px solid #c25c46;      /* Updated border color */
   border-radius: 10px;         /* Optional: rounded corners */
   padding: 0.5rem 1.5rem;      /* Space inside border */
   display: inline-block;       /* Keeps border tight around text */
@@ -72,8 +73,8 @@ footer {
   text-align: center;
   background-color: #70b2f0;
   color: #fff;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #c25c46;   /* Updated border color */
+  border-bottom: 3px solid #c25c46;
   border-left: none;
   border-right: none;
   box-sizing: border-box;
@@ -83,26 +84,26 @@ footer {
 }
 
 footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   padding-left: 0;
-  margin: 0;
-  display: flex;              /* Always horizontal */
-  justify-content: center;    /* Center icons */
-  align-items: center;
-  flex-wrap: wrap;            /* Allows wrapping if needed on small screens */
+  margin: 0 auto;
 }
 
 footer ul li {
-  display: inline-block;      /* Inline-block for spacing */
-  margin: 0 2rem;             /* Adjust spacing as needed */
+  margin: 0 1.5rem;
 }
 
 footer ul li i {
-  font-size: 2rem; /* social media icon size */
-  padding: 10px 0; /* space around icons */
-  color: white; /* icon color */
-  display: flex;
-  justify-content: space-evenly;
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.2s;
+}
+
+footer ul li i:hover {
+  color: #e0e0e0;
 }
 
 .banner-header {
@@ -110,8 +111,8 @@ footer ul li i {
   height: 600px;           /* Stretch header to 600px height */
   overflow: hidden;
   position: relative;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #c25c46;   /* Updated border color */
+  border-bottom: 3px solid #c25c46;
   border-left: none;
   border-right: none;
   border-radius: 0;
@@ -126,7 +127,7 @@ body {
   min-height: 100vh;
   font-family: 'Montserrat', 'Inter', Arial, sans-serif;
   line-height: 1.6;
-  background-color: #0974d7;
+  background-image: url('assets/images/background.jpg');
 }
 
 /* Banner header stays fixed height on desktop */
@@ -135,8 +136,8 @@ body {
   height: 600px;
   overflow: hidden;
   position: relative;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 3px solid #c25c46;   /* Updated border color */
+  border-bottom: 3px solid #c25c46;
   border-left: none;
   border-right: none;
   border-radius: 0;
@@ -198,8 +199,8 @@ body {
 
 .signs-card {
   border: none !important;
-  border-top: 1.5px solid #fff;
-  border-bottom: 1.5px solid #fff;
+  border-top: 1.5px solid #c25c46; /* Updated border color */
+  border-bottom: 1.5px solid #c25c46;
   border-radius: 0;
   box-shadow: 0 2px 12px rgba(0,0,0,0.10);
   min-height: 160px;
@@ -216,4 +217,50 @@ body {
   font-weight: 600;
   color: #fff;
   text-align: center;
+}
+
+.img-fluid.rounded-circle {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.centered-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 1.5rem auto;
+}
+
+.centered-list li {
+  color: #fff;
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: rgba(9, 116, 215, 0.5);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  border-radius: 16px;
+  border: 2px solid #c25c46;       /* Updated border color */
+}
+
+@media (max-width: 600px) {
+  .contact-form {
+    max-width: 100%;     /* Full width on mobile */
+    margin: 1rem;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #c25c46; /* Change to your desired color */
+  margin: 2rem 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
