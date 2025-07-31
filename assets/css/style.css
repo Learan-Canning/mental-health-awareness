@@ -26,7 +26,6 @@ body {
   font-family: 'Montserrat', 'Inter', Arial, sans-serif;
   line-height: 1.6;
   background: skyblue url('assets/images/background.jpg') no-repeat center center fixed;
-  background: url('/assets/images/background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -306,7 +305,4 @@ hr {
 .our-mission-paragraphs li,
 .our-mission-paragraphs {
   text-shadow: 0 2px 8px #000;
-}
-
-
 }
