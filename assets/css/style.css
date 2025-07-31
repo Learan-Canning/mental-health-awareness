@@ -306,3 +306,25 @@ hr {
 .our-mission-paragraphs {
   text-shadow: 0 2px 8px #000;
 }
+
+/* mental health awareness header */  
+.mh-awareness-header {
+  text-shadow: 0 2px 8px #020202;
+}
+
+/* Add this to your style.css for all white text on index.html */
+.index-white-text,
+.index-white-text p,
+.index-white-text li,
+.index-white-text h1,
+.index-white-text h2,
+.index-white-text h3,
+.index-white-text h4,
+.index-white-text h5,
+.index-white-text h6,
+.card-title.text-center,
+.text-white {
+  color: #fff;
+  text-shadow: 0 2px 8px #000;
+}
+
