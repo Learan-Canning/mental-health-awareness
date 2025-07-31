@@ -273,8 +273,43 @@ hr {
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
+/* Make all icons on Our Mission page beige */
 .our-mission-paragraphs i,
 .our-mission-header-wrapper i,
+.our-mission-header i,
 .support-links-header i {
   color: #c25c46 !important;
+}
+
+/* Style "Our Mission" header: beige text, no background, no border, black shadow */
+.our-mission-header {
+  color: #c25c46;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0.5rem 2.5rem;
+  font-weight: 700;
+  box-shadow: none;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #000;
+}
+
+/* Slight black shadow on all texts in Our Mission section */
+.our-mission-paragraphs p,
+.our-mission-paragraphs li,
+.our-mission-paragraphs {
+  text-shadow: 0 2px 8px #000;
+}
+
+
+
+
+.mt-3.text-center {
+  text-shadow: 0 2px 8px #000;
+}
+
+.mb-3 {
+  text-shadow: 0 2px 8px #000;
 }
