@@ -49,7 +49,7 @@ Planned with GitHub Planner:
 # Google Lighthouse 💥
 <img width="1898" height="863" alt="Screenshot 2025-07-31 141221" src="https://github.com/user-attachments/assets/1189419f-f6d3-4e8d-86bb-c296fff9fcd5" />
 
-# <img width="64" height="64" alt="trollface" src="https://github.com/user-attachments/assets/88725f3f-ab95-4c5c-b084-fd002c269a68" /> Refencess: 
+<img width="64" height="64" alt="trollface" src="https://github.com/user-attachments/assets/88725f3f-ab95-4c5c-b084-fd002c269a68" />
 
 
 # ALL Image's 📷
