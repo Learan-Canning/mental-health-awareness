@@ -21,6 +21,11 @@ html, body {
   padding: 0;
 }
 
+/* cut from html */
+.mh-awareness-header {
+  text-shadow: 0 2px 8px #020202;
+}
+
 body {
   min-height: 100vh;
   font-family: 'Montserrat', 'Inter', Arial, sans-serif;
