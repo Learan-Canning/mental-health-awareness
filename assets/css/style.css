@@ -67,14 +67,6 @@ p {
   text-shadow: 0 0 3px skyblue, 0 1px 6px #70b2f0; /* subtle white glow */
 }
 
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
-  color: #c25c46 !important;
-  background-color: rgba(255,255,255,0.12);
-  text-shadow: 0 0 6px #fff, 0 1px 8px #c25c46;
-  transition: color 0.2s, background 0.2s, text-shadow 0.2s;
-}
-
 footer {
   margin-top: auto;
   padding: 1rem 0;
@@ -279,4 +271,10 @@ hr {
   border: 1px solid #fff !important;
   color: #fff !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.our-mission-paragraphs i,
+.our-mission-header-wrapper i,
+.support-links-header i {
+  color: #c25c46 !important;
 }
