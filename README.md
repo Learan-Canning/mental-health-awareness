@@ -29,13 +29,13 @@ Planned with GitHub Planner:
 
 # Built With 🛠️
 
-- HTML5 & CSS3 ✔️
+ HTML5 & CSS3 ✔️
  <img width="1865" height="972" alt="HTML   CSS Screen shot" src="https://github.com/user-attachments/assets/4cab1e97-88bb-435f-bc4a-5496b3732882" />
 
-- Bootstrap 5.3 ✔️
+ Bootstrap 5.3 ✔️
   <img width="1693" height="902" alt="Bootstrap" src="https://github.com/user-attachments/assets/b35041c3-5955-4204-95e7-ea64704392f0" />
 
-- Google Fonts & Fontawesome ✔️
+ Google Fonts & Fontawesome ✔️
   <img width="1167" height="288" alt="Fontawesome googlefonts" src="https://github.com/user-attachments/assets/69c2ffbd-cf16-4ba0-8696-1887075a5e3a" />
 
 
